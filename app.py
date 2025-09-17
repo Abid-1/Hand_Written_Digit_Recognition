@@ -56,7 +56,7 @@ st.markdown("""
 @st.cache_resource
 def load_model():
     """Load the trained model"""
-    model_path = 'num_dc.pkl'
+    model_path = 'hand_written.pkl'
     try:
         with open(model_path, 'rb') as file:
             classifier = pickle.load(file)
@@ -201,3 +201,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
