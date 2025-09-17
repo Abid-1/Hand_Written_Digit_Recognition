@@ -10,7 +10,7 @@ gitpython
 flask
 idna
 jinja2
-sckit-learn
+scikit-learn
 jsonschema
 jsonschema-specifications
 keras
